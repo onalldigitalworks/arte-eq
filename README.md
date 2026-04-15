@@ -18,46 +18,13 @@
         .cta-shadow:hover {
             box-shadow: 0 20px 25px -5px rgba(249, 115, 22, 0.4), 0 10px 10px -5px rgba(249, 115, 22, 0.1);
         }
-       <form id="leadForm" action="https://formsubmit.co/onalldigitalworks@gmail.com" method="POST" class="space-y-5">
+     <form id="leadForm" action="https://formsubmit.co/onalldigitalworks@gmail.com" method="POST" class="space-y-5">
     
-    <input type="hidden" name="_next" value="https://tuusuario.github.io/tu-repo/#formulario">
     <input type="hidden" name="_captcha" value="false">
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
-        <div>
-            <label class="block text-xs font-bold uppercase tracking-widest text-gray-400 mb-2">Nombre Completo</label>
-            <input type="text" name="nombre" id="form-name" required class="form-input w-full px-5 py-4 rounded-xl bg-gray-50 border border-gray-100 outline-none" placeholder="Tu nombre">
-        </div>
-        <div>
-            <label class="block text-xs font-bold uppercase tracking-widest text-gray-400 mb-2">WhatsApp</label>
-            <input type="tel" name="whatsapp" id="form-whatsapp" required class="form-input w-full px-5 py-4 rounded-xl bg-gray-50 border border-gray-100 outline-none" placeholder="+54 9 ...">
-        </div>
-    </div>
-    <div>
-        <label class="block text-xs font-bold uppercase tracking-widest text-gray-400 mb-2">¿A qué técnica te dedicás?</label>
-        <input type="text" name="tecnica" id="form-tecnica" required class="form-input w-full px-5 py-4 rounded-xl bg-gray-50 border border-gray-100 outline-none" placeholder="Ej: Pintura decorativa, Porcelana, Resina...">
-    </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
-        <div>
-            <label class="block text-xs font-bold uppercase tracking-widest text-gray-400 mb-2">Insumo que más usás</label>
-            <input type="text" name="insumo_principal" id="form-insumo" required class="form-input w-full px-5 py-4 rounded-xl bg-gray-50 border border-gray-100 outline-none" placeholder="Ej: Acrílicos, Pinceles...">
-        </div>
-        <div>
-            <label class="block text-xs font-bold uppercase tracking-widest text-gray-400 mb-2">Volumen de compra</label>
-            <select name="volumen" id="form-volumen" required class="form-input w-full px-5 py-4 rounded-xl bg-gray-50 border border-gray-100 outline-none appearance-none">
-                <option value="" disabled selected>Seleccioná una opción</option>
-                <option value="bajo">Bajo (Uso personal)</option>
-                <option value="medio">Medio (Emprendedor/Tallerista)</option>
-                <option value="alto">Alto (Producción masiva/Revendedor)</option>
-            </select>
-        </div>
-    </div>
-    <div class="pt-4">
-        <button type="submit" class="w-full py-5 bg-orange-500 hover:bg-orange-600 text-white font-extrabold rounded-2xl transition-all shadow-xl text-lg uppercase tracking-tight">
-            Quiero mi selección personalizada
-        </button>
-    </div>
-</form>
+    <input type="hidden" name="_next" value="https://tuusuario.github.io/tu-repo/">
+
+    <input type="hidden" name="_subject" value="¡Nuevo Lead de Nuestra Artística!">
         }
         .time-slot:hover {
             border-color: #f97316;
