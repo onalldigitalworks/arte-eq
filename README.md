@@ -64,6 +64,8 @@
         <img src="img/marca1.png" alt="Marca 1" class="h-4 w-auto grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all">
         <img src="img/marca2.png" alt="Marca 2" class="h-4 w-auto grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all">
         <img src="img/marca3.png" alt="Marca 3" class="h-4 w-auto grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all">
+         <img src="img/marca2.png" alt="Marca 4" class="h-4 w-auto grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all">
+          <img src="img/marca2.png" alt="Marca 5" class="h-4 w-auto grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all">
     </div>
 </div>
                         </a>
