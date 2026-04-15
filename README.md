@@ -95,7 +95,7 @@
 
                 <div class="md:w-2/3 p-10 lg:p-14 flex flex-col justify-center">
                     
-                    <form id="leadForm" action="https://formsubmit.co/ajax/TU_CORREO@EMAIL.COM" method="POST" class="space-y-5">
+                    <form id="leadForm" action="https://formsubmit.co/ajax/onalldigitalworks@gmail.com" method="POST" class="space-y-5">
                         
                         <input type="hidden" name="_captcha" value="false">
                         <input type="hidden" name="_subject" value="Nuevo Lead: Asesoría de Insumos">
