@@ -61,11 +61,11 @@
     <span class="text-gray-400 mx-1">|</span>
     <span class="text-gray-600 text-[10px] uppercase font-semibold">Distribuidores Oficiales:</span>
     <div class="flex items-center space-x-2 ml-1">
-        <img src="img/marca1.png" alt="Marca 1" class="h-4 w-auto grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all">
-        <img src="img/marca2.png" alt="Marca 2" class="h-4 w-auto grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all">
-        <img src="img/marca3.png" alt="Marca 3" class="h-4 w-auto grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all">
-         <img src="img/marca2.png" alt="Marca 4" class="h-4 w-auto grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all">
-          <img src="img/marca2.png" alt="Marca 5" class="h-4 w-auto grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all">
+        <img src="img/marca1.png" alt="Marca1" class="h-4 w-auto grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all">
+        <img src="img/marca2.png" alt="Marca2" class="h-4 w-auto grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all">
+        <img src="img/marca3.png" alt="Marca3" class="h-4 w-auto grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all">
+         <img src="img/marca4.png" alt="Marca4" class="h-4 w-auto grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all">
+          <img src="img/marca5.png" alt="Marca5" class="h-4 w-auto grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all">
     </div>
 </div>
                         </a>
