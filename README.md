@@ -56,6 +56,10 @@
                         <a href="#formulario" class="w-full sm:w-auto px-8 py-5 bg-orange-500 text-white font-bold rounded-2xl cta-shadow transition-all text-lg text-center transform hover:-translate-y-1 uppercase tracking-tight">
                             Quiero mi selección personalizada
                         </a>
+                        <div class="flex flex-col items-start text-left ml-2">
+                            <span class="text-sm font-bold text-gray-900 italic">Un asesor te contactará</span>
+                            <span class="text-xs text-gray-400">Sin compromiso de compra</span>
+                        </div>
                     </div>
                 </div>
                 <div class="lg:w-5/12 mt-12 lg:mt-0 relative">
@@ -66,9 +70,87 @@
         </div>
     </section>
 
-    <section class="py-10 bg-gray-50/50 border-y border-gray-100">
-        <div class="container mx-auto px-6 text-center">
-            <h2 class="text-xl font-bold text-gray-800">Más de 500 emprendedores ya optimizaron sus costos</h2>
+    <section class="py-20 bg-gray-50/50 border-y border-gray-100">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-2xl font-bold text-gray-800 tracking-tight">Más de 500 emprendedores ya optimizaron sus costos</h2>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+                    <div class="flex text-orange-400 mb-4">
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    </div>
+                    <p class="text-gray-600 italic mb-4">"Increíble el ahorro. Compraba por unidad y ahora con el asesoramiento puedo planificar mis compras del mes. El descuento en el primer pedido fue real."</p>
+                    <div class="flex items-center">
+                        <div class="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center font-bold text-orange-600 mr-3">LC</div>
+                        <div>
+                            <p class="text-sm font-bold">Lucía C.</p>
+                            <p class="text-xs text-gray-400">Taller de Cerámica</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+                    <div class="flex text-orange-400 mb-4">
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    </div>
+                    <p class="text-gray-600 italic mb-4">"No entendía nada de resina y el asesor me guió paso a paso. Ahora compro en cantidad y mis márgenes son otros. Súper recomendado."</p>
+                    <div class="flex items-center">
+                        <div class="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center font-bold text-orange-600 mr-3">JA</div>
+                        <div>
+                            <p class="text-sm font-bold">Julián A.</p>
+                            <p class="text-xs text-gray-400">Artesanías en Resina</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+                    <div class="flex text-orange-400 mb-4">
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    </div>
+                    <p class="text-gray-600 italic mb-4">"Lo mejor es la velocidad de respuesta. Me armaron una lista ideal para mi nivel de producción y me ahorraron horas de búsqueda."</p>
+                    <div class="flex items-center">
+                        <div class="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center font-bold text-orange-600 mr-3">MM</div>
+                        <div>
+                            <p class="text-sm font-bold">Mariana M.</p>
+                            <p class="text-xs text-gray-400">Pintura Decorativa</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-extrabold text-gray-900">¿Sentís que podrías producir más si tus insumos fueran más económicos?</h2>
+                <p class="text-gray-500 mt-4">Nuestra propuesta es para vos si:</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-8 rounded-3xl bg-gray-50 border border-gray-100 flex flex-col items-center text-center">
+                    <div class="w-12 h-12 bg-orange-100 text-orange-600 rounded-xl flex items-center justify-center mb-4 font-bold text-xl">1</div>
+                    <p class="text-gray-700 font-medium">Sos tallerista y los costos de materiales afectan la rentabilidad de tus clases.</p>
+                </div>
+                <div class="p-8 rounded-3xl bg-gray-50 border border-gray-100 flex flex-col items-center text-center">
+                    <div class="w-12 h-12 bg-orange-100 text-orange-600 rounded-xl flex items-center justify-center mb-4 font-bold text-xl">2</div>
+                    <p class="text-gray-700 font-medium">Comprás con regularidad pero no llegás a los mínimos de una distribuidora gigante.</p>
+                </div>
+                <div class="p-8 rounded-3xl bg-gray-50 border border-gray-100 flex flex-col items-center text-center">
+                    <div class="w-12 h-12 bg-orange-100 text-orange-600 rounded-xl flex items-center justify-center mb-4 font-bold text-xl">3</div>
+                    <p class="text-gray-700 font-medium">Necesitás asesoramiento técnico sobre qué marcas rinden más para tu técnica específica.</p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -87,45 +169,52 @@
                             <div class="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg></div>
                             <span class="text-sm font-medium">Respuesta rápida</span>
                         </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg></div>
+                            <span class="text-sm font-medium">Asesoría 1:1</span>
+                        </div>
                     </div>
                     <div id="sidebar-agenda" class="hidden space-y-4">
-                        <p class="text-sm text-gray-400">Seleccioná un horario disponible para analizar tu lista de insumos.</p>
+                        <p class="text-sm text-gray-400">Seleccioná un horario disponible para que un experto te llame y analicen juntos tu lista de insumos.</p>
+                        <div class="p-4 bg-gray-800 rounded-2xl border border-gray-700">
+                            <span class="text-xs text-orange-400 font-bold uppercase">Duración</span>
+                            <p class="text-lg font-bold">10-15 Minutos</p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="md:w-2/3 p-10 lg:p-14 flex flex-col justify-center">
                     
                     <form id="leadForm" action="https://formsubmit.co/ajax/onalldigitalworks@gmail.com" method="POST" class="space-y-5">
-                        
                         <input type="hidden" name="_captcha" value="false">
-                        <input type="hidden" name="_subject" value="Nuevo Lead: Asesoría de Insumos">
-
+                        <input type="hidden" name="_subject" value="Nueva Solicitud de Insumos">
+                        
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
                             <div>
                                 <label class="block text-xs font-bold uppercase tracking-widest text-gray-400 mb-2">Nombre Completo</label>
-                                <input type="text" name="Nombre" required class="form-input w-full px-5 py-4 rounded-xl bg-gray-50 border border-gray-100 outline-none" placeholder="Tu nombre">
+                                <input type="text" name="Nombre" id="form-name" required class="form-input w-full px-5 py-4 rounded-xl bg-gray-50 border border-gray-100 outline-none" placeholder="Tu nombre">
                             </div>
                             <div>
                                 <label class="block text-xs font-bold uppercase tracking-widest text-gray-400 mb-2">WhatsApp</label>
-                                <input type="tel" name="WhatsApp" required class="form-input w-full px-5 py-4 rounded-xl bg-gray-50 border border-gray-100 outline-none" placeholder="+54 9 ...">
+                                <input type="tel" name="WhatsApp" id="form-whatsapp" required class="form-input w-full px-5 py-4 rounded-xl bg-gray-50 border border-gray-100 outline-none" placeholder="+54 9 ...">
                             </div>
                         </div>
                         <div>
                             <label class="block text-xs font-bold uppercase tracking-widest text-gray-400 mb-2">¿A qué técnica te dedicás?</label>
-                            <input type="text" name="Tecnica" required class="form-input w-full px-5 py-4 rounded-xl bg-gray-50 border border-gray-100 outline-none" placeholder="Pintura, Resina, etc.">
+                            <input type="text" name="Tecnica" id="form-tecnica" required class="form-input w-full px-5 py-4 rounded-xl bg-gray-50 border border-gray-100 outline-none" placeholder="Ej: Pintura decorativa, Porcelana, Resina...">
                         </div>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
                             <div>
                                 <label class="block text-xs font-bold uppercase tracking-widest text-gray-400 mb-2">Insumo que más usás</label>
-                                <input type="text" name="Insumo_Principal" required class="form-input w-full px-5 py-4 rounded-xl bg-gray-50 border border-gray-100 outline-none" placeholder="Acrílicos, etc.">
+                                <input type="text" name="Insumo_Principal" id="form-insumo" required class="form-input w-full px-5 py-4 rounded-xl bg-gray-50 border border-gray-100 outline-none" placeholder="Ej: Acrílicos, Pinceles...">
                             </div>
                             <div>
                                 <label class="block text-xs font-bold uppercase tracking-widest text-gray-400 mb-2">Volumen de compra</label>
-                                <select name="Volumen" required class="form-input w-full px-5 py-4 rounded-xl bg-gray-50 border border-gray-100 outline-none appearance-none">
-                                    <option value="" disabled selected>Seleccioná</option>
+                                <select name="Volumen" id="form-volumen" required class="form-input w-full px-5 py-4 rounded-xl bg-gray-50 border border-gray-100 outline-none appearance-none">
+                                    <option value="" disabled selected>Seleccioná una opción</option>
                                     <option value="bajo">Bajo (Uso personal)</option>
-                                    <option value="medio">Medio (Tallerista)</option>
-                                    <option value="alto">Alto (Masivo)</option>
+                                    <option value="medio">Medio (Emprendedor/Tallerista)</option>
+                                    <option value="alto">Alto (Producción masiva/Revendedor)</option>
                                 </select>
                             </div>
                         </div>
@@ -141,38 +230,85 @@
                             <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
                         </div>
                         <h3 class="text-3xl font-black mb-2">¡Casi listo!</h3>
-                        <p class="text-gray-600 mb-8">Tus datos fueron enviados. Si querés acelerar el proceso:</p>
+                        <p class="text-gray-600 mb-8">Un asesor te contactará pronto. Pero si querés asegurar tus beneficios ahora:</p>
+                        
                         <div class="bg-orange-50 p-8 rounded-3xl border-2 border-dashed border-orange-200">
-                            <button onclick="showAgenda()" class="w-full py-4 bg-gray-900 text-white font-bold rounded-xl shadow-lg">
-                                Agendar llamada ahora
+                            <h4 class="text-xl font-bold text-orange-900 mb-3">¿Querés avanzar más rápido?</h4>
+                            <p class="text-sm text-orange-700 mb-6 font-medium">Elegí el horario que mejor te quede para recibir tu asesoría personalizada hoy.</p>
+                            
+                            <button onclick="showAgenda()" class="w-full py-4 bg-gray-900 hover:bg-black text-white font-bold rounded-xl transition-all text-lg shadow-lg">
+                                Agendar llamada con prioridad
                             </button>
+                            
+                            <div class="mt-4 flex items-center justify-center text-orange-600 text-xs font-bold uppercase tracking-widest space-x-2">
+                                <svg class="w-4 h-4 animate-pulse" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"></path></svg>
+                                <span>Cupos limitados</span>
+                            </div>
                         </div>
                     </div>
 
                     <div id="agenda-view" class="hidden">
-                        <h3 class="text-2xl font-black mb-4">Elegí tu horario</h3>
-                        <div class="grid grid-cols-3 gap-3 mb-8">
-                            <button onclick="selectSlot(this)" class="time-slot py-3 border border-gray-100 rounded-xl text-sm font-bold bg-gray-50">09:00 AM</button>
-                            <button onclick="selectSlot(this)" class="time-slot py-3 border border-gray-100 rounded-xl text-sm font-bold bg-gray-50">10:30 AM</button>
-                            <button onclick="selectSlot(this)" class="time-slot py-3 border border-gray-100 rounded-xl text-sm font-bold bg-gray-50">04:30 PM</button>
+                        <div class="mb-6">
+                            <h3 class="text-2xl font-black mb-1">Elegí tu horario</h3>
+                            <p class="text-sm text-gray-500">Llamadas disponibles de Lunes a Viernes</p>
                         </div>
-                        <button id="confirmAgenda" disabled class="w-full py-5 bg-orange-500 text-white font-extrabold rounded-2xl opacity-50 cursor-not-allowed">
-                            Confirmar Turno
+                        
+                        <div class="flex space-x-2 mb-8 overflow-x-auto pb-2">
+                            <button class="flex-1 min-w-[80px] py-3 rounded-xl border border-gray-200 bg-white hover:border-orange-500 transition-all focus:border-orange-500 focus:bg-orange-50 group">
+                                <span class="block text-[10px] uppercase font-bold text-gray-400 group-focus:text-orange-500">Lun</span>
+                                <span class="text-lg font-bold">21</span>
+                            </button>
+                            <button class="flex-1 min-w-[80px] py-3 rounded-xl border border-gray-200 bg-white hover:border-orange-500 transition-all focus:border-orange-500 focus:bg-orange-50 group">
+                                <span class="block text-[10px] uppercase font-bold text-gray-400 group-focus:text-orange-500">Mar</span>
+                                <span class="text-lg font-bold">22</span>
+                            </button>
+                            <button class="flex-1 min-w-[80px] py-3 rounded-xl border-orange-500 bg-orange-50 group">
+                                <span class="block text-[10px] uppercase font-bold text-orange-500">Mié</span>
+                                <span class="text-lg font-bold text-orange-600">23</span>
+                            </button>
+                            <button class="flex-1 min-w-[80px] py-3 rounded-xl border border-gray-200 bg-white hover:border-orange-500 transition-all focus:border-orange-500 focus:bg-orange-50 group">
+                                <span class="block text-[10px] uppercase font-bold text-gray-400 group-focus:text-orange-500">Jue</span>
+                                <span class="text-lg font-bold">24</span>
+                            </button>
+                            <button class="flex-1 min-w-[80px] py-3 rounded-xl border border-gray-200 bg-white hover:border-orange-500 transition-all focus:border-orange-500 focus:bg-orange-50 group">
+                                <span class="block text-[10px] uppercase font-bold text-gray-400 group-focus:text-orange-500">Vie</span>
+                                <span class="text-lg font-bold">25</span>
+                            </button>
+                        </div>
+
+                        <div class="grid grid-cols-3 gap-3 mb-8">
+                            <button onclick="selectSlot(this)" class="time-slot py-3 border border-gray-100 rounded-xl text-sm font-bold bg-gray-50 transition-all">09:00 AM</button>
+                            <button onclick="selectSlot(this)" class="time-slot py-3 border border-gray-100 rounded-xl text-sm font-bold bg-gray-50 transition-all">10:30 AM</button>
+                            <button onclick="selectSlot(this)" class="time-slot py-3 border border-gray-100 rounded-xl text-sm font-bold bg-gray-50 transition-all">11:45 AM</button>
+                            <button onclick="selectSlot(this)" class="time-slot py-3 border border-gray-100 rounded-xl text-sm font-bold bg-gray-50 transition-all">02:00 PM</button>
+                            <button onclick="selectSlot(this)" class="time-slot py-3 border border-gray-100 rounded-xl text-sm font-bold bg-gray-50 transition-all">04:30 PM</button>
+                            <button onclick="selectSlot(this)" class="time-slot py-3 border border-gray-100 rounded-xl text-sm font-bold bg-gray-50 transition-all">05:45 PM</button>
+                        </div>
+
+                        <button id="confirmAgenda" disabled class="w-full py-5 bg-orange-500 disabled:bg-gray-200 disabled:cursor-not-allowed text-white font-extrabold rounded-2xl transition-all shadow-xl text-lg uppercase">
+                            Confirmar Agendamiento
                         </button>
                     </div>
 
                     <div id="final-success" class="hidden text-center">
-                        <h3 class="text-3xl font-black mb-2 text-orange-600">¡Turno Reservado!</h3>
-                        <p class="text-gray-600">Te contactaremos a las <span class="font-bold" id="selected-time"></span>.</p>
+                        <div class="w-20 h-20 bg-orange-100 text-orange-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                            <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                        <h3 class="text-3xl font-black mb-2">¡Turno Reservado!</h3>
+                        <p class="text-gray-600 mb-6">Agendamos tu llamada para el <span class="font-bold text-gray-900" id="selected-date">Miércoles 23</span> a las <span class="font-bold text-gray-900" id="selected-time">--:--</span>.</p>
+                        <div class="bg-gray-50 p-6 rounded-2xl border border-gray-100 text-sm text-gray-500">
+                            Recibirás un recordatorio por WhatsApp 15 minutos antes de la llamada. ¡Prepará tu lista de dudas!
+                        </div>
                     </div>
 
                 </div>
+
             </div>
         </div>
     </section>
 
     <footer class="py-12 text-center text-gray-400 text-sm">
-        <p>&copy; 2024 Nuestra Artística.</p>
+        <p>&copy; 2024 Nuestra Artística - Al servicio de la creatividad.</p>
     </footer>
 
     <script>
@@ -185,57 +321,67 @@
         const sidebarAgenda = document.getElementById('sidebar-agenda');
         const confirmBtn = document.getElementById('confirmAgenda');
         const submitBtn = document.getElementById('submitBtn');
-
+        
         let selectedTimeValue = "";
 
-        // ENVÍO DEL FORMULARIO
+        // Paso 1: Envío del Formulario (Lógica AJAX)
         leadForm.addEventListener('submit', function(e) {
             e.preventDefault();
+            
             submitBtn.innerText = "Enviando...";
             submitBtn.disabled = true;
 
             const formData = new FormData(this);
-            const object = {};
-            formData.forEach((value, key) => object[key] = value);
-            const json = JSON.stringify(object);
+            const dataObject = {};
+            formData.forEach((value, key) => dataObject[key] = value);
 
-            fetch("https://formsubmit.co/ajax/" + this.action.split('/').pop(), {
+            fetch(this.action, {
                 method: "POST",
                 headers: { 
                     "Content-Type": "application/json",
                     "Accept": "application/json"
                 },
-                body: json
+                body: JSON.stringify(dataObject)
             })
-            .then(res => res.json())
-            .then(data => {
-                leadForm.classList.add('hidden');
-                thankYouView.classList.remove('hidden');
-                document.getElementById('formulario').scrollIntoView({ behavior: 'smooth' });
+            .then(response => {
+                if (response.ok) {
+                    leadForm.classList.add('hidden');
+                    thankYouView.classList.remove('hidden');
+                    document.getElementById('formulario').scrollIntoView({ behavior: 'smooth' });
+                } else {
+                    alert("Error al enviar. Por favor revisa el email configurado.");
+                    submitBtn.innerText = "Quiero mi selección personalizada";
+                    submitBtn.disabled = false;
+                }
             })
-            .catch(err => {
-                alert("Error al enviar. Por favor revisa el email configurado.");
-                submitBtn.innerText = "Quiero mi selección personalizada";
+            .catch(error => {
+                alert("Hubo un problema de conexión.");
                 submitBtn.disabled = false;
             });
         });
 
+        // Paso 2: Mostrar Agenda
         function showAgenda() {
             thankYouView.classList.add('hidden');
             agendaView.classList.remove('hidden');
+            
+            // Cambiar Sidebar
             sidebarTitle.innerText = "Agendá tu Llamada";
             sidebarFeatures.classList.add('hidden');
             sidebarAgenda.classList.remove('hidden');
         }
 
+        // Paso 3: Selección de Slot
         function selectSlot(element) {
-            document.querySelectorAll('.time-slot').forEach(slot => slot.classList.remove('selected'));
+            document.querySelectorAll('.time-slot').forEach(slot => {
+                slot.classList.remove('selected');
+            });
             element.classList.add('selected');
             selectedTimeValue = element.innerText;
             confirmBtn.disabled = false;
-            confirmBtn.classList.remove('opacity-50', 'cursor-not-allowed');
         }
 
+        // Paso 4: Confirmación Final
         confirmBtn.addEventListener('click', function() {
             agendaView.classList.add('hidden');
             finalSuccess.classList.remove('hidden');
