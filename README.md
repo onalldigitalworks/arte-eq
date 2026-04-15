@@ -55,6 +55,17 @@
                     <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
                         <a href="#formulario" class="w-full sm:w-auto px-8 py-5 bg-orange-500 text-white font-bold rounded-2xl cta-shadow transition-all text-lg text-center transform hover:-translate-y-1 uppercase tracking-tight">
                             Quiero mi selección personalizada
+                            <div class="inline-flex items-center space-x-2 bg-orange-50 border border-orange-100 px-3 py-1 rounded-full mb-6">
+    <span class="flex h-2 w-2 rounded-full bg-orange-500 animate-pulse"></span>
+    <span class="text-orange-700 text-xs font-bold uppercase tracking-wider">Acceso Mayorista Intermedio</span>
+    <span class="text-gray-400 mx-1">|</span>
+    <span class="text-gray-600 text-[10px] uppercase font-semibold">Distribuidores Oficiales:</span>
+    <div class="flex items-center space-x-2 ml-1">
+        <img src="img/marca1.png" alt="Marca 1" class="h-4 w-auto grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all">
+        <img src="img/marca2.png" alt="Marca 2" class="h-4 w-auto grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all">
+        <img src="img/marca3.png" alt="Marca 3" class="h-4 w-auto grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all">
+    </div>
+</div>
                         </a>
                         <div class="flex flex-col items-start text-left ml-2">
                             <span class="text-sm font-bold text-gray-900 italic">Un asesor te contactará</span>
