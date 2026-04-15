@@ -135,7 +135,14 @@
             </div>
         </div>
     </section>
-
+<div class="absolute top-4 right-4 bg-white p-4 shadow-lg rounded-lg">
+    <p class="text-gray-900 font-bold text-lg">Somos distribuidores oficiales de:</p>
+    <div class="flex flex-col mt-2">
+        <img src="nueva carpeta/logo1.png" alt="Logo 1" class="w-24 mb-2">
+        <img src="nueva carpeta/logo2.png" alt="Logo 2" class="w-24 mb-2">
+        <!-- Agrega más logos según sea necesario -->
+    </div>
+</div>
     <!-- IDENTIFICACIÓN -->
     <section class="py-20 bg-white">
         <div class="container mx-auto px-6">
