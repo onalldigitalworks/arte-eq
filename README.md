@@ -134,7 +134,6 @@
                 </div>
             </div>
         </div>
-    </section>
 <div class="absolute top-4 right-4 bg-white p-4 shadow-lg rounded-lg">
     <p class="text-gray-900 font-bold text-lg">Somos distribuidores oficiales de:</p>
     <div class="flex flex-col mt-2">
